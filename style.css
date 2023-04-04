@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 60px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.box:hover {
+  background-color: #eee;
+}
+
+.board {
+  margin: 3px;
+  text-align: center;
+}
+
+input {
+  font-size: 30px;
+  margin-top: 20px;
+  background-color: #fc911e;
+  border-radius: 15px;
+}
+
+input:hover {
+  font-size: 40px;
+  background-color: #fcb21e;
+}
+
+input:active {
+  background-color: #fc8d1e;
+}
